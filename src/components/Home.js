@@ -25,9 +25,9 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                {/* <div className="bg-img-wrapper">
+                <div className="bg-img-wrapper">
                     <Image className="bg-img" src={bg_img}></Image>
-                </div> */}
+                </div>
             </div>
         </>
     )

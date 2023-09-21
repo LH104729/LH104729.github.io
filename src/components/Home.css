@@ -1,8 +1,9 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* padding-top: 56px; */
+    height: auto;
 }
 
 .about-wrapper {
@@ -53,6 +54,7 @@
 @media (min-width: 900px) {
     .wrapper {
         flex-wrap: nowrap;
+        flex: 1 1 auto;
     }
     .about-wrapper {
         overflow: auto;
