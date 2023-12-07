@@ -1,8 +1,8 @@
 import React from "react";
 import Image from 'react-bootstrap/Image'
-import bg_img from '../img/K7.png'
+import bg_img from '../img/ED08C064-DD9B-43AC-BEA8-DDCC7B719C23_1_105_c.jpeg'
 
-import profile_img from '../img/DSC_1799.JPG'
+import profile_img from '../img/K7.JPG'
 import './Home.css'
 
 const Home = () => {
