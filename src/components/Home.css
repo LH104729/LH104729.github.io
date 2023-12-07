@@ -67,14 +67,17 @@
         position: sticky;
         top: 0;
         width: 50%;
-        height: 100%;
+        height: auto;
         float: right;
         overflow-y: hidden;
         white-space: nowrap;
     }
     
     .bg-img {
-        height: 100vh;
+        /* height: 100vh; */
+        /* height: 100%; */
         width: 100%;
+        /* object-fit: fill;
+        overflow: hidden; */
     }
 }
