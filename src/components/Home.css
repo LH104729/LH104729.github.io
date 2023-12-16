@@ -1,9 +1,15 @@
 .wrapper {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
     /* padding-top: 56px; */
-    height: auto;
+    /* height: auto; */
+    /* flex-grow: 1; */
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 .about-wrapper {
@@ -53,6 +59,7 @@
 /* @media screen and (min-aspect-ratio: 1) { */
 @media (min-width: 900px) {
     .wrapper {
+        display: flex;
         flex-wrap: nowrap;
         flex: 1 1 auto;
     }
