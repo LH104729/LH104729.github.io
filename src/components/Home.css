@@ -56,8 +56,8 @@
     height: 50vh;
 }
 
-/* @media screen and (min-aspect-ratio: 1) { */
-@media (min-width: 900px) {
+@media screen and (min-aspect-ratio: 1) {
+/* @media (min-width: 900px) { */
     .wrapper {
         display: flex;
         flex-wrap: nowrap;
